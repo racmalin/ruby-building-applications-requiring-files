@@ -1,4 +1,6 @@
-# Something is missing here
+require 'pry'
+require_relative '../lib/ruby_file.rb' 
+require_relative './plant.rb' 
 
 class Garden
   attr_accessor :name
